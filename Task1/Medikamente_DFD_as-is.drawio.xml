@@ -166,7 +166,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e-22" value="результаты (PDF на&lt;br&gt;e-mail)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#b85450;strokeWidth=2;dashed=1;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ext-lab" target="p4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1195" y="180" />
+              <mxPoint x="685" y="180" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-23" value="фискальные документы" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#333333;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p3" target="ext-bank">
           <mxGeometry relative="1" as="geometry" />
@@ -175,7 +180,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e-25" value="P&amp;L, ABC-анализ" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#333333;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p7" target="ext-mgmt">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="685" y="1245" />
+              <mxPoint x="1195" y="1245" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-26" value="пересылка заключений" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#b85450;strokeWidth=2;dashed=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p2" target="d5">
           <mxGeometry relative="1" as="geometry">
@@ -527,13 +537,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e-9" value="авторизация карты" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#333333;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p32" target="bank">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="555" />
+              <mxPoint x="1475" y="555" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-10" value="результат&lt;br&gt;авторизации" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#333333;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bank" target="p32">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1475" y="555" />
+              <mxPoint x="655" y="555" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-11" value="кассовый чек с&lt;br&gt;перечнем услуг" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#333333;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p33" target="pat">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="555" />
+              <mxPoint x="315" y="555" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#333333;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p32" target="p34">
           <mxGeometry relative="1" as="geometry" />
@@ -639,7 +664,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e-8" value="реестр Excel: ФИО,&lt;br&gt;ДР, диагноз, вид&lt;br&gt;исследования" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#b85450;strokeWidth=2;dashed=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p43" target="lab">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1005" y="325" />
+              <mxPoint x="1475" y="325" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-9" value="копия реестра в&lt;br&gt;отправленных" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#b85450;strokeWidth=2;dashed=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p43" target="d-mail">
           <mxGeometry relative="1" as="geometry">
@@ -678,7 +708,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e-16" value="результат на бумаге&lt;br&gt;или письмом" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#b85450;strokeWidth=2;dashed=1;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p46" target="pat">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1075" y="555" />
+              <mxPoint x="315" y="555" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pnl" value="&lt;b&gt;Проблемные зоны на этом потоке&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Р-08 нет договора поручения обработки с лабораторией&lt;br&gt;• Р-17 результаты ходят по e-mail без шифрования&lt;br&gt;• Р-09 журнал анализов — Excel на общем диске&lt;br&gt;• Р-16 общий ящик info@ — теневое хранилище результатов&lt;br&gt;• Р-02 срок хранения результатов не определён&lt;br&gt;• Р-31 никто не знает полного перечня мест, где лежат результаты&lt;br&gt;• Р-42 API-интеграция проектируется без Privacy by Design" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;verticalAlign=middle;align=left;spacingLeft=8;" vertex="1" parent="1">
           <mxGeometry x="1500" y="700" width="400" height="242" as="geometry" />

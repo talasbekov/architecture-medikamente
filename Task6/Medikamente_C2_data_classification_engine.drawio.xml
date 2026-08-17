@@ -298,7 +298,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e-35" value="Тег в каталог" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tagw" target="cat">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1735" y="355" />
+              <mxPoint x="1055" y="355" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tagw" target="enf">
           <mxGeometry relative="1" as="geometry" />
@@ -315,7 +320,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e-39" value="Не классифицировано&lt;br&gt;→ остаётся в&lt;br&gt;карантине" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="land" target="l0">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715" y="500" />
+              <mxPoint x="2075" y="500" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-40" value="Класс присвоен" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="enf" target="l1">
           <mxGeometry relative="1" as="geometry" />
@@ -354,10 +364,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="air" target="anon">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715" y="1305" />
+              <mxPoint x="1735" y="1305" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-48" value="Политики по тегам" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cat" target="enf">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1055" y="1305" />
+              <mxPoint x="1735" y="1305" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-49" value="Пороги уверенности&lt;br&gt;настраиваются по&lt;br&gt;метрикам" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="met" target="conf">
           <mxGeometry relative="1" as="geometry">
