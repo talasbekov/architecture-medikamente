@@ -709,7 +709,7 @@
         <mxCell id="e-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#333333;endArrow=block;endFill=1;" edge="1" parent="1" source="p63" target="p64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pnl" value="&lt;b&gt;Проблемные зоны на этом потоке&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Р-11 файловый режим обеих баз 1С&lt;br&gt;• Р-22 у склада есть доступ ко всему общему диску&lt;br&gt;• Р-33 нет прослеживаемости: связь «расходник → кабинет → приём» нигде не фиксируется явно, но восстанавливается сопоставлением файлов&lt;br&gt;• Р-41 обе базы — на единственном сервере без DR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;verticalAlign=middle;align=left;spacingLeft=8;" vertex="1" parent="1">
+        <mxCell id="pnl" value="&lt;b&gt;Проблемные зоны на этом потоке&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Р-11 файловый режим обеих баз 1С&lt;br&gt;• Р-10 у склада есть доступ ко всему общему диску&lt;br&gt;• Н-08 связь «расходник → кабинет → приём» нигде не фиксируется явно, но восстанавливается сопоставлением файлов&lt;br&gt;• Р-41 обе базы — на единственном сервере без DR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;verticalAlign=middle;align=left;spacingLeft=8;" vertex="1" parent="1">
           <mxGeometry x="1420" y="200" width="460" height="164" as="geometry" />
         </mxCell>
       </root>
@@ -780,7 +780,7 @@
         <mxCell id="e-11" value="отчёт, местами с построчными данными пациентов" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#b85450;strokeWidth=2;dashed=1;endArrow=block;endFill=1;" edge="1" parent="1" source="d-mail" target="mgmt">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pnl" value="&lt;b&gt;Проблемные зоны на этом потоке&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Р-14 неконтролируемые локальные копии на АРМ аналитика&lt;br&gt;• Р-36 аналитика строится на сырых ПДн без обезличивания&lt;br&gt;• Р-33 нет data lineage: неизвестно, что попало в отчёт&lt;br&gt;• Р-28 нет аудита выгрузок с общего диска&lt;br&gt;• Р-21 нет DLP на исходящем канале&lt;br&gt;• Р-13 данные на ноутбуке не резервируются" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;verticalAlign=middle;align=left;spacingLeft=8;" vertex="1" parent="1">
+        <mxCell id="pnl" value="&lt;b&gt;Проблемные зоны на этом потоке&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Р-14 неконтролируемые локальные копии на АРМ аналитика&lt;br&gt;• Р-36 аналитика строится на сырых ПДн без обезличивания&lt;br&gt;• Р-33 нет data lineage: неизвестно, что попало в отчёт&lt;br&gt;• Р-28 нет аудита выгрузок с общего диска&lt;br&gt;• Р-21 нет DLP на исходящем канале&lt;br&gt;• Р-13 данные на ноутбуке не резервируются и не шифруются" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;verticalAlign=middle;align=left;spacingLeft=8;" vertex="1" parent="1">
           <mxGeometry x="1420" y="560" width="460" height="216" as="geometry" />
         </mxCell>
       </root>
