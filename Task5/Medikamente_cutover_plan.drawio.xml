@@ -1,0 +1,339 @@
+<mxfile host="app.diagrams.net" agent="Medikamente" version="24.7.8" type="device">
+  <diagram id="Cutover_—_план_этапов" name="Cutover — план этапов">
+    <mxGraphModel dx="1400" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2620" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ttl-1" value="Cutover-план: этапы миграции и период параллельной работы" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="1700" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="sub-2" value="Стратегия — Parallel run. Legacy (Excel, общий диск, файловая 1С) остаётся в рабочем состоянии до этапа 8, поэтому откат возможен на любом шаге до точки невозврата." style="text;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="60" y="68" width="1700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m0" value="мес. 0" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="520" y="205" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ef-3" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#dddddd;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="240" as="sourcePoint" />
+            <mxPoint x="560" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1" value="мес. 1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="665" y="205" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ef-4" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#dddddd;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="705" y="240" as="sourcePoint" />
+            <mxPoint x="705" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" value="мес. 2" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="810" y="205" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ef-5" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#dddddd;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="240" as="sourcePoint" />
+            <mxPoint x="850" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" value="мес. 3" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="955" y="205" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ef-6" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#dddddd;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="995" y="240" as="sourcePoint" />
+            <mxPoint x="995" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" value="мес. 4" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="205" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ef-7" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#dddddd;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="240" as="sourcePoint" />
+            <mxPoint x="1140" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5" value="мес. 5" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="205" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ef-8" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#dddddd;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1285" y="240" as="sourcePoint" />
+            <mxPoint x="1285" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" value="мес. 6" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="205" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ef-9" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#dddddd;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="240" as="sourcePoint" />
+            <mxPoint x="1430" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7" value="мес. 7" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1535" y="205" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ef-10" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#dddddd;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="240" as="sourcePoint" />
+            <mxPoint x="1575" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8" value="мес. 8" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="205" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ef-11" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#dddddd;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1720" y="240" as="sourcePoint" />
+            <mxPoint x="1720" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9" value="мес. 9" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1825" y="205" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ef-12" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#dddddd;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1865" y="240" as="sourcePoint" />
+            <mxPoint x="1865" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m10" value="мес. 10" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="205" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ef-13" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#dddddd;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2010" y="240" as="sourcePoint" />
+            <mxPoint x="2010" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m11" value="мес. 11" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2115" y="205" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ef-14" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#dddddd;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2155" y="240" as="sourcePoint" />
+            <mxPoint x="2155" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m12" value="мес. 12" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="205" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ef-15" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#dddddd;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2300" y="240" as="sourcePoint" />
+            <mxPoint x="2300" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl-leg" value="&lt;b&gt;Legacy: Excel, общий диск, файловая 1С&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="265" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-leg" value="Работает как источник правды  →  только чтение  →  архив" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=middle;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="1595" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl-new" value="&lt;b&gt;Новая система (МИС «Медикаменте»)&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="335" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-new" value="Разработка  →  пилот  →  параллельная работа  →  единственный источник правды" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=middle;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="850" y="330" width="1595" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pr" value="Период параллельной работы: обе системы содержат данные, ежедневная автоматическая сверка" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#9673a6;strokeWidth=2;verticalAlign=top;align=center;fontSize=12;fontColor=#9673a6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="995" y="245" width="1015" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="sl0" value="Этап 0. Подготовка основания" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="470" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sb0" value="" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=middle;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="450" width="290" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sl1" value="Этап 1. Профилирование и очистка данных" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="524" width="470" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sb1" value="" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=middle;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="705" y="524" width="290" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sl2" value="Этап 2. MVP и пилот: запись на приём" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="598" width="470" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sb2" value="" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=middle;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="850" y="598" width="290" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sl3" value="Этап 3. Параллельная работа: запись на приём" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="672" width="470" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sb3" value="" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=middle;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="672" width="145" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sl4" value="Этап 4. Расширение: ЭМК и лаборатория" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="746" width="470" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sb4" value="" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=middle;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="746" width="435" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sl5" value="Этап 5. Расширение: оплата и учёт" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="820" width="470" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sb5" value="" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=middle;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="820" width="290" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sl6" value="Этап 6. Параллельная работа полного контура" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="894" width="470" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sb6" value="" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=middle;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="894" width="145" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sl7" value="Этап 7. Cutover — переключение" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="968" width="470" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sb7" value="" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=middle;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="968" width="60" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sl8" value="Этап 8. Стабилизация и вывод legacy" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1042" width="470" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sb8" value="" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=middle;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="1042" width="290" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sl9" value="Этап 9. Тиражирование на филиалы" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1116" width="470" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="sb9" value="" style="rounded=1;arcSize=25;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=middle;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="1116" width="145" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="cut" value="◀ окно выходного дня, Go/No-Go" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="2082" y="968" width="300" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="nor" value="◀ точка невозврата" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="1042" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="&lt;b&gt;Почему Parallel run&lt;/b&gt;&lt;br&gt;&lt;br&gt;• У компании нет собственной кодовой базы — внутри Excel и коробочной 1С невозможно внедрить абстракцию, поэтому Branch by abstraction неприменим технически.&lt;br&gt;• Цена ошибки в медицинских и финансовых данных слишком высока для переключения «в один момент».&lt;br&gt;• Двойной учёт уже существует в кассе — организационно подход не новый для компании.&lt;br&gt;• Legacy остаётся рабочим, поэтому откат не требует восстановления из резервных копий.&lt;br&gt;&lt;br&gt;&lt;b&gt;Ключевой риск и как он закрыт:&lt;/b&gt; рассинхронизация данных. Ввод только в новую систему, синхронизация односторонняя (новая → legacy), сверка ежедневная, критерий выхода — 14 дней подряд без единого расхождения." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1140" width="900" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Cutover_—_блок-схема_переключения_и_отката" name="Cutover — блок-схема переключения и отката">
+    <mxGraphModel dx="1400" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1950" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ttl-1" value="Блок-схема переключения и многоуровневого отката" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="1700" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="sub-2" value="Решение о переключении и о каждом уровне отката принимается по заранее заданным критериям, а не по субъективной оценке готовности в момент инцидента." style="text;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="60" y="68" width="1700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="start" value="&lt;b&gt;Готовность к окну переключения&lt;/b&gt;&lt;br&gt;завершён этап 6" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="170" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="go" value="&lt;b&gt;Все 12 критериев&lt;br&gt;Go / No-Go&lt;br&gt;выполнены?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nogo" value="&lt;b&gt;No-Go&lt;/b&gt;&lt;br&gt;Перенос окна, устранение замечаний.&lt;br&gt;Отменить может любой: спонсор, технический директор, DPO" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sync" value="Финальная синхронизация данных&lt;br&gt;и заморозка legacy" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="500" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ro" value="Общий диск и файловые базы —&lt;br&gt;в режим «только чтение»&lt;br&gt;(не удаляются)" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="630" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dual" value="Отключение двойного ввода.&lt;br&gt;Новая система — единственный&lt;br&gt;источник правды" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="760" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="watch" value="Усиленное дежурство 72 часа:&lt;br&gt;мониторинг НФТ, сверок, SIEM" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="890" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="inc" value="&lt;b&gt;Обнаружена&lt;br&gt;проблема?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1020" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lvl" value="&lt;b&gt;Уровень&lt;br&gt;воздействия?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1020" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l01" value="&lt;b&gt;L0 / L1&lt;/b&gt; — hotfix или автоматический откат релиза&lt;br&gt;15 мин – 4 ч · тимлид, release manager" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1210" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" value="&lt;b&gt;L2&lt;/b&gt; — откат процесса на legacy&lt;br&gt;2 ч · технический директор + владелец процесса" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1330" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" value="&lt;b&gt;L3&lt;/b&gt; — полный откат всех процессов&lt;br&gt;4 ч · решение спонсора проекта" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1450" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="stab" value="Стабилизация: разбор обращений,&lt;br&gt;контроль метрик 2 недели" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1210" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="arch" value="Архивирование legacy: шифрование,&lt;br&gt;удаление просроченных данных,&lt;br&gt;отзыв доступов к общему диску" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1340" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nor" value="&lt;b&gt;Точка невозврата&lt;/b&gt;&lt;br&gt;Отключение legacy. Отдельное решение спонсора, не автоматически" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1480" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="end" value="&lt;b&gt;Миграция завершена&lt;/b&gt;&lt;br&gt;переход к этапу 9 — филиалы" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1620" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="start" target="go">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-4" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="go" target="nogo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-5" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="go" target="sync">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="sync" target="ro">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="ro" target="dual">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="dual" target="watch">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="watch" target="inc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-10" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#b85450;dashed=1;strokeWidth=2;" edge="1" parent="1" source="inc" target="lvl">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-11" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="inc" target="stab">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-12" value="некритично" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#b85450;dashed=1;strokeWidth=2;" edge="1" parent="1" source="lvl" target="l01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-13" value="один процесс" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#b85450;dashed=1;strokeWidth=2;" edge="1" parent="1" source="lvl" target="l2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-14" value="массово / инцидент ИБ" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#b85450;dashed=1;strokeWidth=2;" edge="1" parent="1" source="lvl" target="l3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-15" value="возврат в мониторинг" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#b85450;dashed=1;strokeWidth=2;" edge="1" parent="1" source="l01" target="watch">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#b85450;dashed=1;strokeWidth=2;" edge="1" parent="1" source="l2" target="watch">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-17" value="разбор, повторное окно" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#b85450;dashed=1;strokeWidth=2;" edge="1" parent="1" source="l3" target="nogo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="stab" target="arch">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="arch" target="nor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="nor" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-21" value="повторная проверка" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="nogo" target="go">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2" value="&lt;b&gt;Почему откат возможен без потерь&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Legacy не отключается до этапа 8 — файлы и базы 1С остаются в рабочем состоянии.&lt;br&gt;• Общий диск переводится в «только чтение», а не удаляется: возврат — одна операция.&lt;br&gt;• Полная резервная копия снимается перед окном и проверяется восстановлением.&lt;br&gt;• Механизм выгрузки данных в формат legacy отлажен на этапах 3–6, а не пишется в момент аварии." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1620" width="480" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

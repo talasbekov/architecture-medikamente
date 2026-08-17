@@ -1,0 +1,307 @@
+<mxfile host="app.diagrams.net" agent="Medikamente" version="24.7.8" type="device">
+  <diagram id="C2_Движок_классификации_данных" name="C2 Движок классификации данных">
+    <mxGraphModel dx="1400" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="1680" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g8" value="Оркестрация, метаданные и наблюдаемость" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#666666;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontSize=13;fontColor=#444444;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1110" width="2030" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="g7" value="Слои аналитического хранилища" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#666666;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontSize=13;fontColor=#444444;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="160" width="330" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="g6" value="Применение политик" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#666666;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontSize=13;fontColor=#444444;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="160" width="330" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="g5" value="Принятие решения и участие человека" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#666666;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontSize=13;fontColor=#444444;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="160" width="330" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="g4" value="Ансамбль классификаторов" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#666666;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontSize=13;fontColor=#444444;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="160" width="330" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="g3" value="Профилирование" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#666666;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontSize=13;fontColor=#444444;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="160" width="330" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" value="Приём и обнаружение изменений структуры" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#666666;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontSize=13;fontColor=#444444;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="330" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="g1" value="Источники" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#666666;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontSize=13;fontColor=#444444;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="330" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="ttl-1" value="C4 · Уровень 2 — движок классификации данных перед загрузкой в аналитическое хранилище" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="1700" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="sub-2" value="Данные не попадают в хранилище, пока не получат класс конфиденциальности. Неклассифицированное остаётся в карантине. Структуры на входе меняются и не размечены, поэтому классификация идёт ансамблем методов с оценкой уверенности и подтверждением человеком в спорных случаях." style="text;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="60" y="68" width="1700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" value="&lt;b&gt;БД доменов&lt;/b&gt;&lt;div style='font-size:10px'&gt;[PostgreSQL]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Идентификация, ЭМК, финансы, расписание&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="&lt;b&gt;Файлы Excel и сканы&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Общий диск (legacy)]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Исторические журналы и медкарты&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="355" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="&lt;b&gt;Базы 1С&lt;/b&gt;&lt;div style='font-size:10px'&gt;[PostgreSQL]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Бухгалтерия, ТМЦ&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="500" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" value="&lt;b&gt;События доменов&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Apache Kafka]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Поток изменений в реальном времени&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="645" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="s5" value="&lt;b&gt;API партнёров&lt;/b&gt;&lt;div style='font-size:10px'&gt;[REST]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Результаты лаборатории&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="790" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="conn" value="&lt;b&gt;Коннекторы источников&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Debezium, Spark, Airbyte]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Пакетный и потоковый режимы, инкрементальная выгрузка&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="land" value="&lt;b&gt;Зона приземления (карантин)&lt;/b&gt;&lt;div style='font-size:10px'&gt;[MinIO / Iceberg]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Данные шифруются сразу; доступ только сервисным учёткам&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6612A;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#A34A1F;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="355" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="sreg" value="&lt;b&gt;Реестр схем&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Schema Registry]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Версии схем, история изменений&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="500" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="drift" value="&lt;b&gt;Детектор изменения структуры&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Python]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Новый столбец, смена типа, переименование → повторная классификация&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="645" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="samp" value="&lt;b&gt;Сэмплер&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Spark]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Репрезентативная выборка вместо полного сканирования&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="740" y="210" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="norm" value="&lt;b&gt;Нормализатор&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Python]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Приведение форматов, удаление разделителей, регистр&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="740" y="355" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="prof" value="&lt;b&gt;Профилировщик данных&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Spark]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Кардинальность, доля пустых, длины, шаблоны, распределение&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="740" y="500" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="c-rx" value="&lt;b&gt;Правила и регулярные выражения&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Java]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;СНИЛС, ИНН, полис ОМС — с проверкой контрольной суммы&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="210" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="c-dic" value="&lt;b&gt;Словари и NER&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Python, Natasha]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;ФИО, адреса, названия организаций&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="355" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ref" value="&lt;b&gt;Справочники&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Java]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;МКБ-10, номенклатура медуслуг, справочник ЛС&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="500" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="c-meta" value="&lt;b&gt;Классификатор по метаданным&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Python]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Имя столбца, комментарий, имя таблицы и файла&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="645" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ml" value="&lt;b&gt;ML-классификатор&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Python, scikit-learn]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Обучен на признаках профиля; дообучается на решениях стюардов&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="790" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="c-llm" value="&lt;b&gt;LLM-ассистент&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Локальная модель в контуре компании]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Только для спорных случаев, работает на маскированной выборке&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="935" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="agg" value="&lt;b&gt;Агрегатор решений&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Java]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Взвешенное голосование классификаторов&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="210" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="conf" value="&lt;b&gt;Оценка уверенности&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Java]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Высокая — авто; средняя — к стюарду; низкая — карантин&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="355" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="res" value="&lt;b&gt;Разрешение конфликтов&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Java]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;При расхождении выигрывает более строгий класс&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="500" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="queue" value="&lt;b&gt;Очередь на подтверждение&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Apache Kafka]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Спорные решения ждут человека&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B85450;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#8C3F3C;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="645" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ui" value="&lt;b&gt;Интерфейс стюарда данных&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: React]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Владелец домена подтверждает или переопределяет класс&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="790" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="fb" value="&lt;b&gt;Хранилище обратной связи&lt;/b&gt;&lt;div style='font-size:10px'&gt;[PostgreSQL]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Решения людей → обучающая выборка для ML&lt;/div&gt;" style="shape=cylinder3;size=8;boundedLbl=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="935" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="tagw" value="&lt;b&gt;Запись тегов&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Java]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Класс, категория, срок хранения, политика маскирования&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9673A6;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#6A5079;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="210" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="enf" value="&lt;b&gt;Применение политик&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Java]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Что делать с полем: пропустить, маскировать, токенизировать, обезличить&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9673A6;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#6A5079;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="355" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="tokn" value="&lt;b&gt;Токенизация и маскирование&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Vault Transit]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Обратимая замена ПДн токенами&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9673A6;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#6A5079;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="500" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="anon" value="&lt;b&gt;Обезличивание&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Container: Spark]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;k-анонимность, обобщение, подавление редких значений&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9673A6;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#6A5079;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="645" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="l0" value="&lt;b&gt;L0 · Карантин&lt;/b&gt;&lt;div style='font-size:10px'&gt;[MinIO / Iceberg]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Неклассифицированное. Людям доступа нет&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6612A;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#A34A1F;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="210" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" value="&lt;b&gt;L1 · Raw&lt;/b&gt;&lt;div style='font-size:10px'&gt;[MinIO / Iceberg]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Классифицировано, но не обработано. Только сервисные учётки&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6612A;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#A34A1F;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="355" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" value="&lt;b&gt;L2 · Trusted&lt;/b&gt;&lt;div style='font-size:10px'&gt;[MinIO / Iceberg]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Псевдонимизировано, ПДн заменены токенами&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6612A;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#A34A1F;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="500" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" value="&lt;b&gt;L3 · Anonymized&lt;/b&gt;&lt;div style='font-size:10px'&gt;[MinIO / Iceberg]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Необратимо обезличено, вне действия 152-ФЗ&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6612A;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#A34A1F;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="645" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" value="&lt;b&gt;L4 · Витрины&lt;/b&gt;&lt;div style='font-size:10px'&gt;[ClickHouse]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Агрегаты для BI, построчных ПДн нет&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6612A;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#A34A1F;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="790" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="sbx" value="&lt;b&gt;Песочница ML и LLM&lt;/b&gt;&lt;div style='font-size:10px'&gt;[JupyterHub]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Доступ только к L3&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="935" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="air" value="&lt;b&gt;Оркестратор&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Apache Airflow]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Расписание, зависимости, повторы&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1160" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="cat" value="&lt;b&gt;Каталог данных&lt;/b&gt;&lt;div style='font-size:10px'&gt;[OpenMetadata]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Теги, владельцы, глоссарий, lineage&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6612A;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#A34A1F;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1160" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="met" value="&lt;b&gt;Метрики классификации&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Victoria Metrics, Grafana]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Полнота, точность, доля автоклассификации, размер карантина&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1160" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="aud" value="&lt;b&gt;Журнал аудита&lt;/b&gt;&lt;div style='font-size:10px'&gt;[Elasticsearch]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Кто и когда изменил класс данных&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9673A6;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#6A5079;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1160" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="vlt" value="&lt;b&gt;Vault + KMS&lt;/b&gt;&lt;div style='font-size:10px'&gt;[HashiCorp Vault]&lt;/div&gt;&lt;div style='font-size:10px;margin-top:3px'&gt;Ключи шифрования слоёв и токенизации&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9673A6;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#6A5079;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1160" width="290" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="e-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="s1" target="conn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="s2" target="conn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="s3" target="conn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="s4" target="conn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="s5" target="conn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-8" value="Загрузка «как есть», сразу в шифрованном виде" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;" edge="1" parent="1" source="conn" target="land">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-9" value="Регистрация схемы" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="conn" target="sreg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-10" value="Сравнение версий схемы" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="sreg" target="drift">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="land" target="samp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-12" value="Изменилось → переклассифицировать" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="drift" target="samp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="samp" target="norm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="norm" target="prof">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-15" value="Профиль столбца" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="prof" target="c-rx">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="prof" target="c-dic">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="prof" target="c-ref">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="prof" target="c-meta">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="prof" target="c-ml">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-20" value="Только при низкой уверенности — дорогой шаг" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="conf" target="c-llm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="c-rx" target="agg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="c-dic" target="agg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="c-ref" target="agg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="c-meta" target="agg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="c-ml" target="agg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="c-llm" target="agg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="agg" target="conf">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-28" value="Высокая уверенность" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="conf" target="res">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-29" value="Средняя уверенность" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="conf" target="queue">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="queue" target="ui">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-31" value="Решение человека" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="ui" target="fb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-32" value="Переопределение класса — приоритет выше авто" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;" edge="1" parent="1" source="ui" target="res">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-33" value="Дообучение" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="fb" target="c-ml">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-34" value="Итоговый класс" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;" edge="1" parent="1" source="res" target="tagw">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-35" value="Тег в каталог" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;" edge="1" parent="1" source="tagw" target="cat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;" edge="1" parent="1" source="tagw" target="enf">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;" edge="1" parent="1" source="enf" target="tokn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;" edge="1" parent="1" source="enf" target="anon">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-39" value="Не классифицировано → остаётся в карантине" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;" edge="1" parent="1" source="land" target="l0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-40" value="Класс присвоен" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="enf" target="l1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="tokn" target="l2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="anon" target="l3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-43" value="Построение витрин" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="l3" target="l4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="l3" target="sbx">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="air" target="conn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="air" target="prof">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="air" target="anon">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-48" value="Политики по тегам" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;" edge="1" parent="1" source="cat" target="enf">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-49" value="Пороги уверенности настраиваются по метрикам" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#707070;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#404040;" edge="1" parent="1" source="met" target="conf">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;" edge="1" parent="1" source="tagw" target="aud">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=10;strokeColor=#6A5079;strokeWidth=2;endArrow=blockThin;endFill=1;fontSize=10;fontColor=#6A5079;" edge="1" parent="1" source="vlt" target="tokn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="&lt;b&gt;Три решения, определяющие устройство движка&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;1. Карантин по умолчанию.&lt;/b&gt; Данные, класс которых не определён, не попадают в хранилище и недоступны людям. Ошибка распознавания приводит к недоступности данных, а не к утечке — это осознанный выбор в пользу безопасности.&lt;br&gt;&lt;br&gt;&lt;b&gt;2. Ансамбль, а не один метод.&lt;/b&gt; Структуры на входе меняются и не размечены. Регулярное выражение хорошо ловит СНИЛС по контрольной сумме, но бесполезно для свободного текста; NER находит ФИО, но ошибается на редких фамилиях. Голосование нескольких методов с оценкой уверенности точнее любого отдельного.&lt;br&gt;&lt;br&gt;&lt;b&gt;3. Каскад по стоимости.&lt;/b&gt; Сначала работают дешёвые классификаторы (метаданные, регулярные выражения), и только при низкой уверенности подключается дорогой LLM-ассистент. Это то, что делает решение экономически применимым при пятикратном росте объёма.&lt;br&gt;&lt;br&gt;&lt;b&gt;Конфликты решаются консервативно:&lt;/b&gt; при расхождении классификаторов выигрывает более строгий класс, решение человека всегда перекрывает автоматическое." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1160" width="290" height="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
